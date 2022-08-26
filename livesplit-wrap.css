@@ -1,0 +1,72 @@
+html {
+  height: unset;
+  width: 0;
+  transform: scale(1.5);
+  transform-origin: 0 0;
+}
+body {
+  background-image: unset;
+  background-size: unset;
+  background-color: #000;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.panel {
+}
+.w270 {
+  width: 270px;
+}
+.panel:not(.p0), .panel.p0, .panel-lighter, .panel-inset:not(.p0), .panel-inset.p0, .panel-inset-lighter:not(.p0), .panel-inset-lighter.p0, .panel-hole-combined, .panel-hole, .mod-page-info article table, .panel-hole-inner, dl.panel-hole > dt, dl.panel-hole > dd, table.panel-hole th, table.panel-hole td, .mod-page-info article table th, .mod-page-info article table td {
+  padding: 4px;
+  margin-bottom: 3px;
+}
+.darker:not(.p0) {
+  background-color: #383738;
+}
+h2 {
+  font-weight: 700;
+}
+
+.livesplit-top {
+  height: 109px;
+  opacity: 0;
+}
+.livesplit-bottom {
+  height: 55px;
+}
+
+/* scroller */
+.scroller {
+  height: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.scroller > div {
+  margin-top: -3px;
+  _animation: slide3 15s ease infinite; /* modify from js */
+}
+.scroller > div > p {
+  margin: 0;
+  line-height: 30px;
+}
+.scroller {
+  font-weight: 400;
+  font-size: large;
+  __margin: 8px 0 3px 3px;
+  
+  __text-shadow: 1px 1px 1px #000;
+}
+
+/* draggable vertical bars */
+h2 {
+  white-space: nowrap;
+}
+h2:after {
+  content: "||||||||||||||||||||||||";
+  margin-left: 8px;
+  color: #2a2a2a;
+  text-shadow: 2px 0px 1px #404040;
+  font-size: larger;
+  letter-spacing: -2.5px;
+  line-height: 0px;
+}
+
